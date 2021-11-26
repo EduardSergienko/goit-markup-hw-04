@@ -99,7 +99,7 @@ header {
 .contacts .link {
   color: var(--complementary-color);
   text-decoration: none;
-
+  display: inline-flex;
   font-weight: 500;
   font-size: 14px;
   line-height: 1, 14px;
@@ -116,6 +116,19 @@ header {
 .contacts .item + .item {
   margin-left: 50px;
 }
+
+/* .contacts .mail::before {
+  content: "";
+  display: inline-flex;
+  align-items: center;
+  margin-right: 10px;
+  width: 16px;
+
+  background-image: url(../images/svg/mail.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+} */
+
 /* Hero */
 
 .section {
@@ -200,6 +213,28 @@ header {
   margin-bottom: 10px;
 }
 
+.principle-list .item::before {
+  content: "";
+  display: block;
+  height: 120px;
+  background-color: #f5f4fa;
+  background-position: center;
+
+  background-repeat: no-repeat;
+  margin-bottom: 30px;
+}
+.principle-list .item:nth-child(1)::before {
+  background-image: url(../images/svg/item_anten.svg);
+}
+.principle-list .item:nth-child(2)::before {
+  background-image: url(../images/svg/item_clock.svg);
+}
+.principle-list .item:nth-child(3)::before {
+  background-image: url(../images/svg/item_diagrm.svg);
+}
+.principle-list .item:nth-child(4)::before {
+  background-image: url(../images/svg/item_starman.svg);
+}
 /* <!-- What are we doing --> */
 
 .we-doing-title {
