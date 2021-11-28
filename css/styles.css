@@ -116,6 +116,13 @@ header {
 .contacts .item + .item {
   margin-left: 50px;
 }
+.mail_icon {
+  /* align-items: center; */
+  /* display: inline-flex; */
+  /* width: 16px;
+  height: 12px;
+  vertical-align: middle; */
+}
 
 /* .contacts .mail::before {
   content: "";
@@ -123,8 +130,9 @@ header {
   align-items: center;
   margin-right: 10px;
   width: 16px;
+  height: 12px;
 
-  background-image: url(../images/svg/mail.svg);
+  background-image: url(../images/icons.svg#mail_icon);
   background-repeat: no-repeat;
   background-position: center;
 } */
@@ -190,6 +198,7 @@ header {
 }
 .principle-list .item {
   width: 270px;
+  display: block;
 }
 .principle-list .item + .item {
   margin-left: 30px;
@@ -213,7 +222,18 @@ header {
   margin-bottom: 10px;
 }
 
-.principle-list .item::before {
+.icons-box {
+  display: flex;
+  height: 120px;
+  margin-bottom: 30px;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f4fa;
+}
+/* .icons-box .icon {
+  align-items: center;
+} */
+/* .principle-list .item::before {
   content: "";
   display: block;
   height: 120px;
@@ -234,7 +254,8 @@ header {
 }
 .principle-list .item:nth-child(4)::before {
   background-image: url(../images/svg/item_starman.svg);
-}
+} */
+
 /* <!-- What are we doing --> */
 
 .we-doing-title {
