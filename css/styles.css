@@ -230,9 +230,11 @@ header {
   justify-content: center;
   background-color: #f5f4fa;
 }
-/* .icons-box .icon {
+.icons-box .icon {
+  width: 70px;
+  height: 70px;
   align-items: center;
-} */
+}
 /* .principle-list .item::before {
   content: "";
   display: block;
@@ -329,8 +331,42 @@ header {
 }
 .worker {
   text-align: center;
-  padding-bottom: 30px;
+  /* padding-bottom: 30px; */
   padding-top: 30px;
+}
+.social-box {
+  margin-top: 16px;
+  margin-right: 32px;
+  margin-bottom: 30px;
+  margin-left: 32px;
+}
+.social-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.soc-item {
+  display: inline-flex;
+  background-color: white;
+  border-radius: 50%;
+  padding: 0;
+  margin: 0;
+  width: 44px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+}
+.soc-item:hover {
+  background-color: var(--activity-text-color);
+}
+
+.soc-icon {
+  width: 22px;
+  height: 22px;
+  fill: #afb1b8;
+}
+.soc-icon:hover {
+  fill: white;
 }
 
 /* Подвал */
