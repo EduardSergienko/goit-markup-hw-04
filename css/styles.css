@@ -67,7 +67,7 @@ header {
 }
 .headnav {
   display: flex;
-  margin-right: 331px;
+  margin-right: 305px;
 }
 .headnav .item:not(:last-child) {
   margin-right: 50px;
@@ -95,6 +95,7 @@ header {
 }
 .contacts {
   display: flex;
+  align-items: center;
 }
 .contacts .link {
   color: var(--complementary-color);
@@ -104,6 +105,7 @@ header {
   font-size: 14px;
   line-height: 1, 14px;
   letter-spacing: 0.02em;
+  align-items: center;
 }
 
 .contacts .link:hover {
@@ -114,14 +116,24 @@ header {
   color: var(--activity-text-color);
 }
 .contacts .item + .item {
-  margin-left: 50px;
+  margin-left: 30px;
 }
-.mail_icon {
-  /* align-items: center; */
-  /* display: inline-flex; */
-  /* width: 16px;
+
+.mail-icon {
+  align-items: center;
+  display: inline-flex;
+  width: 16px;
   height: 12px;
-  vertical-align: middle; */
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.tell-icon {
+  align-items: center;
+  display: inline-flex;
+  width: 10px;
+  height: 16px;
+  vertical-align: middle;
+  margin-right: 10px;
 }
 
 /* .contacts .mail::before {
