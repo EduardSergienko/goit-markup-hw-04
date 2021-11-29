@@ -381,6 +381,34 @@ header {
   fill: white;
 }
 
+/* ==========OUR CLIENT=================== */
+
+.our-client .title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 0.85;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.clients {
+}
+.clients-list {
+  display: flex;
+  justify-content: space-between;
+}
+.client-icon {
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+  padding: 16px 32px;
+}
+.clients-list .item {
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
 /* Подвал */
 footer {
   background-color: var(--complementary-backgraund-color);
