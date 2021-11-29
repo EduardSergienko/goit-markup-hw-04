@@ -414,11 +414,13 @@ footer {
   background-color: var(--complementary-backgraund-color);
   padding-top: 60px;
   padding-bottom: 60px;
+  display: flex;
 }
 .footer {
   /* width: 1600px; */
   margin-left: auto;
   margin-right: auto;
+  display: flex;
 
   /* padding-left: 215px; */
 }
@@ -474,6 +476,15 @@ footer {
 .address {
   margin-bottom: 9px;
 }
+
+/* ==============Присоединяйтесь============== */
+.joing {
+  display: block;
+}
+.joing-list {
+  display: flex;
+}
+
 /* POrtfolio */
 
 /* категории  */
