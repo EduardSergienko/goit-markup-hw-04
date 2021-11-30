@@ -357,15 +357,17 @@ header {
 .soc-item:hover {
   background-color: var(--activity-text-color);
 }
-
+.soc-item:hover .soc-icon {
+  fill: white;
+}
 .soc-icon {
   /* width: 22px;
   height: 22px; */
   fill: #afb1b8;
 }
-.soc-icon:hover {
+/* .soc-icon:hover {
   fill: white;
-}
+} */
 
 /* ==========OUR CLIENT=================== */
 
