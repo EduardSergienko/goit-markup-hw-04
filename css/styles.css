@@ -107,8 +107,16 @@ header {
   letter-spacing: 0.02em;
   align-items: center;
 }
-
-.contacts .link:hover {
+.contacts .link:hover .mail-icon,
+.contacts .link:focus .mail-icon{
+  fill: var(--activity-text-color);
+}
+.contacts .link:hover .tell-icon,
+.contacts .link:focus .tell-icon{
+  fill: var(--activity-text-color);
+}
+.contacts .link:hover{
+  
   color: var(--activity-text-color);
 }
 
@@ -120,34 +128,15 @@ header {
 }
 
 .mail-icon {
-  align-items: center;
-  display: inline-flex;
-  width: 16px;
-  height: 12px;
-  vertical-align: middle;
   margin-right: 10px;
+  fill: #757575;
 }
 .tell-icon {
-  align-items: center;
-  display: inline-flex;
-  width: 10px;
-  height: 16px;
-  vertical-align: middle;
   margin-right: 10px;
+  fill: #757575;
 }
 
-/* .contacts .mail::before {
-  content: "";
-  display: inline-flex;
-  align-items: center;
-  margin-right: 10px;
-  width: 16px;
-  height: 12px;
 
-  background-image: url(../images/icons.svg#mail_icon);
-  background-repeat: no-repeat;
-  background-position: center;
-} */
 
 /* Hero */
 
@@ -373,8 +362,8 @@ header {
 }
 
 .soc-icon {
-  width: 22px;
-  height: 22px;
+  /* width: 22px;
+  height: 22px; */
   fill: #afb1b8;
 }
 .soc-icon:hover {
@@ -482,6 +471,7 @@ footer {
   display: block;
   margin-left: 70px;
   margin-top: 12px;
+  width: 206px;
 }
 .joing-title {
   margin-bottom: 20px;
