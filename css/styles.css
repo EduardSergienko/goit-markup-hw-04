@@ -15,6 +15,9 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+a {
+  text-decoration: none;
+}
 h1,
 h2,
 h3,
@@ -286,9 +289,6 @@ header {
 }
 
 .our-team {
-  /* max-width: 1600px; */
-  /* margin-left: auto;
-  margin-right: auto; */
   background: #f5f4fa;
 }
 
@@ -389,11 +389,15 @@ header {
   align-items: center;
   justify-content: center;
   padding: 16px 32px;
-}
-.clients-list .item {
+  fill: #afb1b8;
   border: 1px solid #afb1b8;
-  box-sizing: border-box;
+
   border-radius: 4px;
+}
+
+.client-icon:hover {
+  fill: var(--activity-text-color);
+  border-color: var(--activity-text-color);
 }
 /* Подвал */
 footer {
@@ -541,6 +545,8 @@ footer {
 .portfolio-categoris .button:focus {
   color: var(--second-complementary-color);
   background-color: var(--activity-text-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 /* работы */
@@ -595,4 +601,11 @@ footer {
   padding-left: 24px;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+.portfolio-link {
+  display: inline-block;
+}
+.portfolio-link:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
